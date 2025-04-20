@@ -1,4 +1,3 @@
-# app/models/pulse_check.rb
 class PulseCheck
   include Mongoid::Document
   include Mongoid::Timestamps

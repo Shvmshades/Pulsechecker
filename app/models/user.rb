@@ -11,6 +11,6 @@ class User
   has_secure_password
 
   has_and_belongs_to_many :teams
-  # has_many :pulse_checks, dependent: :destroy
-  # has_many :interventions, dependent: :destroy
+  has_many :pulse_checks
+  has_many :interventions, dependent: :destroy
 end
