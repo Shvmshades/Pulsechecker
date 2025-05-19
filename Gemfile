@@ -47,5 +47,5 @@ gem "pundit", "~> 2.5"
 gem "bcrypt", "~> 3.1"
 
 group :development do
-  gem 'graphiql-rails', '~> 1.8'
+  gem 'graphiql-rails', '~> 1.10'
 end
